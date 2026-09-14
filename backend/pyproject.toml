@@ -1,0 +1,18 @@
+[project]
+name = "portfolio-backend"
+version = "0.1.0"
+description = "FastAPI + Groq AI-powered portfolio assistant backend"
+readme = "Resume.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.141.1",
+    "groq>=1.7.0",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "uvicorn>=0.52.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
